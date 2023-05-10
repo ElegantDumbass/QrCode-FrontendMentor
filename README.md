@@ -19,8 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./images/Screenshot%202023-05-08%20191043.png)
-![](./images/Screenshot%202023-05-08%20191123%202.png)
+![](./images/Screenshot%202023-05-10%20120748.png)
 
 ### Links
 
@@ -92,8 +91,8 @@ I am not as skilled as i think i am, if not for ai i dont know how long this wou
 i changed things and added thing from abdul and kusboo feedback
 such as :
 
-1. Add Semantic
-2. Add Alt(wich i forgot, thankyou)
+1. Added Semantic
+2. Added Alt(wich i forgot, thankyou)
 3. Remove media query(i still don't have clean grasp of it, if any of you have advice or solution please do tell me)
 4. Changed color, text weight, and image
 
