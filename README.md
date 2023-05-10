@@ -88,3 +88,15 @@ i want to improve my understanding of media query and relative size(kinda still 
 ## Acknowledgments
 
 I am not as skilled as i think i am, if not for ai i dont know how long this would take, i want to be better at web dev and this first step really help me get out of my bubble.
+
+i changed things and added thing from abdul and kusboo feedback
+such as :
+
+1. Add Semantic
+2. Add Alt(wich i forgot, thankyou)
+3. Remove media query(i still don't have clean grasp of it, if any of you have advice or solution please do tell me)
+4. Changed color, text weight, and image
+
+if my text is still going outside of the container or it size does not match please do tell me with solution(because frankly i don't know how to fix it)
+
+thank you for the feedback, i will revisit this challange in the future

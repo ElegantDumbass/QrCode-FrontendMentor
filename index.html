@@ -1,112 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
+    <link rel="stylesheet" href="style.css" /> <!--Add style.css-->
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        min-width: 100vw;
-        background-color: #d5e1ef;
-      }
-      .card {
-        background-color: whitesmoke;
-        height: 75vh;
-        width: 24vw;
-        border-radius: 5%;
-        margin: 0px;
-        padding: 0px;
-      }
-
-      /* Image */
-      .image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 15px 25px 0px 25px;
-      }
-      .image img {
-        background-color: aqua;
-        height: 45vh;
-        width: 45vw;
-        border-radius: 5%;
-      }
-      /* Image */
-
-      /* Text */
-      .text {
-        /* background-color: #252f47; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        padding: 15px 25px 0px 25px;
-        margin: 0;
-      }
-      .text h2 {
-        font-family: monospace;
-        color: #252f47;
-        font-weight: bold;
-        margin: 0;
-        padding: 0;
-        font-size: 2em;
-      }
-
-      .text p {
-        font-family: monospace;
-        font-weight: bold;
-        color: rgb(159, 159, 159);
-        margin-top: 10px;
-        font-size: 1.3em;
-      }
-      /* Text */
-
-      @media only screen and (max-width: 600px) {
-        .card {
-          height: 78vmin;
-          width: 50vw;
-        }
-
-        .image {
-          padding: 15px 15px 0px 15px;
-        }
-
-        .image img {
-          height: 45vmin;
-          width: 45vw;
-        }
-
-        .text h2 {
-          margin: 15;
-          font-size: 3.3vw;
-        }
-
-        .text p {
-          font-size: 2.5vw;
-        }
-      }
-    </style>
   </head>
-  <body>
+  <main>
     <div class="card">
-      <div class="image">
-        <img src="./images/image-qr-code.png" alt="" />
-      </div>
-      <div class="text">
-        <h2>Improve your front-end skills by building projects</h2>
+        <img src="./images/image-qr-code.png" alt="Qrcode_FrontendMentor" /> <!--Thank you for reminding me to add an alt-->
+        <h1>Improve your front-end skills by building projects</h1>
         <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      </div>
     </div>
-  </body>
+  </main>
 </html>
